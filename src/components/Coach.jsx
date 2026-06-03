@@ -1,3 +1,5 @@
+import rehanaPhoto from '../assets/Rehana.jpg';
+
 const SERVICES = [
   {
     title: '60-min Prakriti Consultation',
@@ -55,13 +57,12 @@ export default function Coach({ onBack }) {
           {/* Avatar + name */}
           <div className="px-7 pb-7">
             <div className="flex items-end gap-5 -mt-10 mb-5">
-              {/* Initials avatar */}
-              <div
-                className="w-20 h-20 rounded-2xl border-4 border-white flex items-center justify-center flex-shrink-0 shadow-sm"
-                style={{ background: 'linear-gradient(135deg, #9c8660, #5c4d33)' }}
-              >
-                <span className="text-white font-serif text-2xl font-medium select-none">RS</span>
-              </div>
+              {/* Photo avatar */}
+              <img
+                src={rehanaPhoto}
+                alt="Rehana Sheikh"
+                className="w-20 h-20 rounded-2xl border-4 border-white object-cover flex-shrink-0 shadow-sm"
+              />
               <div className="pb-1">
                 <h1 className="font-serif text-[#2d2418] text-2xl">Rehana Sheikh</h1>
                 <p className="text-xs font-sans text-[#9c8660] mt-0.5 uppercase tracking-wider">
