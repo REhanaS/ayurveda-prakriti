@@ -3,34 +3,51 @@ import Intro from './components/Intro';
 import Quiz from './components/Quiz';
 import Results from './components/Results';
 import LifestyleGuide from './components/LifestyleGuide/LifestyleGuide';
+import Coach from './components/Coach';
 
 export default function App() {
   const [page, setPage] = useState('intro');
+  const [prevPage, setPrevPage] = useState('intro');
   const [scores, setScores] = useState({ vata: 0, pitta: 0, kapha: 0 });
+
+  const goTo = (next) => {
+    setPrevPage(page);
+    setPage(next);
+  };
 
   const handleQuizComplete = (finalScores) => {
     setScores(finalScores);
-    setPage('results');
+    goTo('results');
   };
 
   const handleRetake = () => {
     setScores({ vata: 0, pitta: 0, kapha: 0 });
-    setPage('quiz');
+    goTo('quiz');
   };
 
   return (
     <div className="min-h-screen bg-[#faf7f2]">
-      {page === 'intro' && <Intro onStart={() => setPage('quiz')} />}
+      {page === 'intro' && (
+        <Intro onStart={() => goTo('quiz')} onCoach={() => goTo('coach')} />
+      )}
       {page === 'quiz' && <Quiz onComplete={handleQuizComplete} />}
       {page === 'results' && (
         <Results
           scores={scores}
-          onViewGuide={() => setPage('guide')}
+          onViewGuide={() => goTo('guide')}
           onRetake={handleRetake}
+          onCoach={() => goTo('coach')}
         />
       )}
       {page === 'guide' && (
-        <LifestyleGuide scores={scores} onBack={() => setPage('results')} />
+        <LifestyleGuide
+          scores={scores}
+          onBack={() => setPage('results')}
+          onCoach={() => goTo('coach')}
+        />
+      )}
+      {page === 'coach' && (
+        <Coach onBack={() => setPage(prevPage)} />
       )}
     </div>
   );

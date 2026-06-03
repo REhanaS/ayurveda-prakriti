@@ -30,7 +30,7 @@ function CustomTooltip({ active, payload }) {
   return null;
 }
 
-export default function Results({ scores, onViewGuide, onRetake }) {
+export default function Results({ scores, onViewGuide, onRetake, onCoach }) {
   const prakriti = calculatePrakriti(scores);
   if (!prakriti) return null;
 
@@ -210,10 +210,16 @@ export default function Results({ scores, onViewGuide, onRetake }) {
             View Lifestyle Guide →
           </button>
           <button
+            onClick={onCoach}
+            className="flex-1 bg-[#c0704a] text-white py-4 rounded-full text-xs font-sans uppercase tracking-widest hover:bg-[#a85e3d] transition-colors cursor-pointer"
+          >
+            Meet Coach
+          </button>
+          <button
             onClick={onRetake}
             className="flex-1 border border-[#d4c4a8] text-[#5c4d33] py-4 rounded-full text-xs font-sans uppercase tracking-widest hover:border-[#9c8660] transition-colors cursor-pointer"
           >
-            Retake Assessment
+            Retake
           </button>
         </div>
       </div>

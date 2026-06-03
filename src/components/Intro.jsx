@@ -1,4 +1,4 @@
-export default function Intro({ onStart }) {
+export default function Intro({ onStart, onCoach }) {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-6 py-16 text-center">
       <div className="max-w-2xl mx-auto">
@@ -42,12 +42,20 @@ export default function Intro({ onStart }) {
           ))}
         </div>
 
-        <button
-          onClick={onStart}
-          className="bg-[#2d2418] text-[#faf7f2] px-10 py-4 rounded-full text-sm font-sans font-medium tracking-widest uppercase hover:bg-[#5c4d33] transition-colors duration-200 cursor-pointer"
-        >
-          Begin Assessment
-        </button>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+          <button
+            onClick={onStart}
+            className="bg-[#2d2418] text-[#faf7f2] px-10 py-4 rounded-full text-sm font-sans font-medium tracking-widest uppercase hover:bg-[#5c4d33] transition-colors duration-200 cursor-pointer"
+          >
+            Begin Assessment
+          </button>
+          <button
+            onClick={onCoach}
+            className="border border-[#d4c4a8] text-[#5c4d33] px-8 py-4 rounded-full text-sm font-sans font-medium tracking-widest uppercase hover:border-[#9c8660] hover:bg-[#f3ede0] transition-colors duration-200 cursor-pointer"
+          >
+            Meet Coach
+          </button>
+        </div>
 
         <p className="text-[#9c8660] text-xs font-sans mt-5">
           35 questions · 10–15 minutes · No sign-up required

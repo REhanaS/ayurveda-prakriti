@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { calculatePrakriti, DOSHA_COLORS } from '../../utils/doshaUtils';
+import { generateLifestyleGuidePDF } from '../../utils/generatePDF';
 import DincharyaTab from './DincharyaTab';
 import RitucharyaTab from './RitucharyaTab';
 import DietTab from './DietTab';
@@ -14,8 +15,18 @@ const TABS = [
 
 const DOSHA_LABELS = { vata: 'Vata', pitta: 'Pitta', kapha: 'Kapha' };
 
-export default function LifestyleGuide({ scores, onBack }) {
+export default function LifestyleGuide({ scores, onBack, onCoach }) {
   const [activeTab, setActiveTab] = useState('dincharya');
+  const [downloading, setDownloading] = useState(false);
+
+  const handleDownload = async (dominant, dual, type, percentages) => {
+    setDownloading(true);
+    try {
+      await generateLifestyleGuidePDF(dominant, dual, type, percentages);
+    } finally {
+      setDownloading(false);
+    }
+  };
   const prakriti = calculatePrakriti(scores);
   if (!prakriti) return null;
 
@@ -33,10 +44,10 @@ export default function LifestyleGuide({ scores, onBack }) {
     <div className="min-h-screen bg-[#faf7f2]">
       {/* Top bar */}
       <div className="sticky top-0 z-10 bg-[#faf7f2] border-b border-[#e8dcc8]">
-        <div className="max-w-2xl mx-auto px-6 py-4 flex items-center justify-between">
+        <div className="max-w-2xl mx-auto px-6 py-4 flex items-center justify-between gap-3">
           <button
             onClick={onBack}
-            className="text-xs font-sans text-[#9c8660] hover:text-[#5c4d33] transition-colors cursor-pointer"
+            className="text-xs font-sans text-[#9c8660] hover:text-[#5c4d33] transition-colors cursor-pointer flex-shrink-0"
           >
             ← Results
           </button>
@@ -44,17 +55,21 @@ export default function LifestyleGuide({ scores, onBack }) {
             <p className="text-[10px] font-sans text-[#9c8660] uppercase tracking-widest">Lifestyle Guide</p>
             <p className="font-serif text-[#2d2418] text-sm">{prakritiLabel}</p>
           </div>
-          <div className="flex gap-1">
-            {Object.entries(percentages)
-              .sort((a, b) => b[1] - a[1])
-              .map(([d, pct]) => (
-                <div
-                  key={d}
-                  title={`${DOSHA_LABELS[d]}: ${pct}%`}
-                  className="w-5 h-5 rounded-full border-2 border-white"
-                  style={{ backgroundColor: DOSHA_COLORS[d], opacity: pct / 100 + 0.3 }}
-                />
-              ))}
+          <div className="flex items-center gap-2 flex-shrink-0">
+            <button
+              onClick={() => handleDownload(dominant, dual, type, percentages)}
+              disabled={downloading}
+              title="Download PDF"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[10px] font-sans uppercase tracking-wider border border-[#d4c4a8] text-[#5c4d33] hover:border-[#9c8660] hover:bg-[#f3ede0] transition-all cursor-pointer disabled:opacity-50"
+            >
+              {downloading ? '…' : '↓'} PDF
+            </button>
+            <button
+              onClick={onCoach}
+              className="flex items-center gap-1 px-3 py-1.5 rounded-full text-[10px] font-sans uppercase tracking-wider bg-[#c0704a] text-white hover:bg-[#a85e3d] transition-all cursor-pointer"
+            >
+              Coach
+            </button>
           </div>
         </div>
 
@@ -84,6 +99,21 @@ export default function LifestyleGuide({ scores, onBack }) {
 
       {/* Tab content */}
       <div className="max-w-2xl mx-auto px-6 py-8">
+        {/* Herb & practitioner warning */}
+        <div className="mb-6 rounded-2xl border border-[#e8b49a] bg-[#fdf6f2] px-5 py-4 flex gap-3">
+          <span className="text-lg flex-shrink-0 mt-0.5">⚠️</span>
+          <div>
+            <p className="text-xs font-sans font-semibold text-[#7a3a1e] mb-1 uppercase tracking-wide">
+              Please read before starting any herbal practice
+            </p>
+            <p className="text-xs font-sans text-[#5c4d33] leading-relaxed">
+              The recommendations in this guide are for general educational purposes only and are not a substitute for professional medical advice.{' '}
+              <strong>Consult a qualified Ayurvedic practitioner before beginning any herbal protocol</strong>, especially if you are pregnant, nursing, on medication, or managing a health condition.
+              The key principles are <strong>moderation</strong> and <strong>body awareness</strong> — observe how your body responds and adjust accordingly.
+            </p>
+          </div>
+        </div>
+
         {type === 'dual' && (
           <div className="mb-6 px-4 py-3 rounded-xl bg-white border border-[#e8dcc8] text-xs font-sans text-[#9c8660]">
             Showing recommendations for your primary dosha <strong className="text-[#2d2418]">{DOSHA_LABELS[dominant]}</strong>.
