@@ -1,0 +1,180 @@
+{
+  "ritucharya": {
+    "seasons": [
+      {
+        "id": "shishira",
+        "name": "Shishira Ritu (Late Winter)",
+        "months": "Mid-January to Mid-March",
+        "westernEquivalent": "Late Winter",
+        "dominantDosha": "Kapha accumulation begins",
+        "climate": "Cold, dry, windy",
+        "agniStrength": "Strong — body needs more fuel for warmth",
+        "recommendations": {
+          "vata": {
+            "diet": "Warm, heavy, oily, nourishing foods. Ghee liberally. Sweet, sour, salty tastes. Warm milk with turmeric and ashwagandha. Sesame-based foods. Jaggery and dates.",
+            "lifestyle": "Stay very warm. Extra oil massage with sesame oil. Avoid wind exposure. Warm baths. Heavier clothing. Sunbathing when possible.",
+            "exercise": "Gentle indoor exercise. Restorative yoga. Avoid outdoor exercise in cold wind.",
+            "herbs": "Ashwagandha, Bala, Shatavari, warm spices (ginger, cinnamon, cardamom)"
+          },
+          "pitta": {
+            "diet": "Can enjoy heavier foods this season as Agni is strong. Sweet, nourishing grains, root vegetables, healthy fats. Moderate spices are fine in winter.",
+            "lifestyle": "Normal routine. Enjoy the cool weather. Oil massage with sesame or almond oil.",
+            "exercise": "Moderate to active. Good season for Pitta to exercise more vigorously since heat isn't an issue.",
+            "herbs": "Shatavari, Amalaki, Brahmi, moderate warming spices"
+          },
+          "kapha": {
+            "diet": "Warm, light, well-spiced foods. Avoid heavy, cold, sweet, and dairy-heavy foods even though Agni is strong. Honey in warm water. Pungent and bitter tastes.",
+            "lifestyle": "Wake early. Stay very active. Dry massage (garshana). Avoid oversleeping — critical in this season as Kapha starts accumulating.",
+            "exercise": "Vigorous daily exercise is essential. Build heat through movement.",
+            "herbs": "Trikatu (ginger, black pepper, long pepper), Guggulu, Punarnava, Tulsi"
+          }
+        }
+      },
+      {
+        "id": "vasanta",
+        "name": "Vasanta Ritu (Spring)",
+        "months": "Mid-March to Mid-May",
+        "westernEquivalent": "Spring",
+        "dominantDosha": "Kapha aggravation — accumulated Kapha melts and spreads",
+        "climate": "Warming, moist",
+        "agniStrength": "Weakening as weather warms",
+        "recommendations": {
+          "vata": {
+            "diet": "Gradually lighten diet. Warm, cooked foods with moderate spices. Can start including some bitter greens. Avoid cold drinks and ice cream.",
+            "lifestyle": "Enjoy the warming weather. Continue oil massage but can use lighter oils. Get more sunlight.",
+            "exercise": "Gradually increase activity. Nature walks. Moderate yoga.",
+            "herbs": "Triphala, Guduchi, ginger, turmeric"
+          },
+          "pitta": {
+            "diet": "Light, slightly cooling but still warm foods. Bitter greens, sprouts, light grains. Sweet and bitter tastes. Avoid sour and fermented.",
+            "lifestyle": "Enjoy outdoors. Moderate oil massage. Good season for cleansing (Panchakarma).",
+            "exercise": "Moderate. Swimming can begin. Avoid midday sun.",
+            "herbs": "Neem, Guduchi, Amalaki, Triphala"
+          },
+          "kapha": {
+            "diet": "Light, dry, warm, well-spiced foods. This is THE most important season for Kapha diet. Barley, millet, honey, leafy greens, sprouts. Strictly avoid dairy, sweets, cold foods, wheat. Fasting is beneficial.",
+            "lifestyle": "Maximum activity. Udvartana (dry powder massage) daily. Nasya for sinus clearing. This is the best season for Panchakarma/detox for Kapha. Therapeutic vomiting (Vamana) is traditionally prescribed.",
+            "exercise": "Most vigorous exercise of the year. Outdoor sports, running, hiking, intense yoga.",
+            "herbs": "Trikatu, Triphala, Honey, Kutki, Vacha, Haridra (turmeric)"
+          }
+        }
+      },
+      {
+        "id": "grishma",
+        "name": "Grishma Ritu (Summer)",
+        "months": "Mid-May to Mid-July",
+        "westernEquivalent": "Summer",
+        "dominantDosha": "Pitta accumulation; Vata can also increase due to dryness",
+        "climate": "Hot, dry, intense sun",
+        "agniStrength": "Weakened — sun draws energy from the body",
+        "recommendations": {
+          "vata": {
+            "diet": "Sweet, liquid, cooling but not ice-cold foods. Milk, ghee, rice, sweet fruits (grapes, melons, mangoes). Avoid excessive pungent, salty. Stay hydrated with room-temp water.",
+            "lifestyle": "Avoid direct sun exposure. Cool, shaded environments. Chandana (sandalwood) paste on body. Light cotton clothing. Moonlight walks.",
+            "exercise": "Very light exercise only. Early morning or evening. Swimming. Avoid sweating excessively.",
+            "herbs": "Shatavari, Amalaki, Guduchi, Rose, Khus (vetiver)"
+          },
+          "pitta": {
+            "diet": "Most important season for Pitta dietary care. Sweet, bitter, astringent tastes. Cooling foods: coconut water, watermelon, cucumber, mint, coriander, fennel. Avoid spicy, sour, fermented, fried. No alcohol.",
+            "lifestyle": "Stay cool. Avoid midday sun. Sandalwood paste. Rose water sprays. Garden walks in moonlight. Swimming. Air-conditioned or well-ventilated spaces.",
+            "exercise": "Minimal, cooling exercise only. Swimming is ideal. Early morning walks. No intense or competitive sports.",
+            "herbs": "Shatavari, Brahmi, Amalaki, Rose, Guduchi, Sariva, Ushira"
+          },
+          "kapha": {
+            "diet": "Lighter foods but can include more variety. Naturally lighter appetite in summer is fine. Fresh fruits and vegetables. Light grains.",
+            "lifestyle": "Best season for Kapha — natural lightness and warmth help balance. Stay active but hydrated.",
+            "exercise": "Moderate exercise. Can be active but avoid overheating. Morning and evening exercise preferred.",
+            "herbs": "Guduchi, Amalaki, lighter warming spices (cumin, coriander, fennel)"
+          }
+        }
+      },
+      {
+        "id": "varsha",
+        "name": "Varsha Ritu (Monsoon/Rainy Season)",
+        "months": "Mid-July to Mid-September",
+        "westernEquivalent": "Late Summer / Early Autumn",
+        "dominantDosha": "Vata aggravation; Pitta also aggravated from accumulated summer heat",
+        "climate": "Humid, wet, cool winds, cloudy",
+        "agniStrength": "Weakest — humidity suppresses digestive fire",
+        "recommendations": {
+          "vata": {
+            "diet": "Most important season for Vata dietary care. Warm, sour, salty, oily foods. Aged grains, light soups, ginger tea. Use ghee and sesame oil. Avoid raw, cold, heavy foods. Sour tastes like lemon, tamarind help.",
+            "lifestyle": "Stay dry and warm. Avoid getting wet in rain. Warm oil massage. Fumigation of living spaces with herbs. Use warm water for all purposes.",
+            "exercise": "Gentle indoor exercise. Avoid outdoor exercise in rain and wind.",
+            "herbs": "Ashwagandha, Dashamula, Bala, Haritaki, warm digestive spices"
+          },
+          "pitta": {
+            "diet": "Sweet, bitter, astringent tastes continue. Light, easily digestible foods. Avoid sour and fermented (these aggravate Pitta accumulated from summer). Bitter greens and cooling grains.",
+            "lifestyle": "Avoid humidity and damp heat. Stay clean and dry. Light sandalwood application. Gentle oil massage with coconut oil.",
+            "exercise": "Moderate indoor exercise. Avoid overheating in humid conditions.",
+            "herbs": "Guduchi (best herb for this season), Amalaki, Neem, Kutki"
+          },
+          "kapha": {
+            "diet": "Light, warm, dry, spiced foods. Old grains (aged rice, barley). Honey. Avoid new grains, dairy, and cold foods. Pungent and astringent tastes.",
+            "lifestyle": "Keep dry. Avoid dampness at all costs. Use warming, drying herbs and fumigation. Udvartana to prevent excess moisture absorption.",
+            "exercise": "Stay active indoors. Maintain vigorous routine despite weather.",
+            "herbs": "Trikatu, Pippali, Haritaki, Chitrak, Vacha"
+          }
+        }
+      },
+      {
+        "id": "sharad",
+        "name": "Sharad Ritu (Autumn)",
+        "months": "Mid-September to Mid-November",
+        "westernEquivalent": "Autumn / Fall",
+        "dominantDosha": "Pitta aggravation peaks — sudden warmth after rains releases accumulated Pitta",
+        "climate": "Clear skies, warm days, cool nights, sharp sun",
+        "agniStrength": "Gradually strengthening",
+        "recommendations": {
+          "vata": {
+            "diet": "Sweet, bitter, astringent tastes. Warm, nourishing foods. Ghee is very beneficial. Milk with turmeric. Sweet fruits.",
+            "lifestyle": "Oil massage with moderate oils. Enjoy moonlight (traditional Sharad recommendation). Begin preparing for winter — increase warmth gradually.",
+            "exercise": "Moderate exercise. Walking in nature. Yoga.",
+            "herbs": "Shatavari, Amalaki, Guduchi, mild spices"
+          },
+          "pitta": {
+            "diet": "Most critical season for Pitta management. Sweet, bitter, astringent tastes strictly. Ghee-purged foods (ghee processed with bitter herbs). Rice, wheat, green gram, sugar, Amalaki. Avoid pungent, sour, salty completely. Virechana (therapeutic purgation) is traditionally recommended.",
+            "lifestyle": "Moonlight exposure is specifically prescribed in classics. Sandalwood, camphor, pearls. Avoid direct afternoon sun. Medicated ghee (Tikta Ghrita).",
+            "exercise": "Moderate, cooling. Swimming. Evening walks.",
+            "herbs": "Amalaki (most important), Guduchi, Shatavari, Chandana, Sariva, medicated ghee"
+          },
+          "kapha": {
+            "diet": "Light, dry, warm foods continue. This is a moderate season for Kapha. Enjoy the clear weather for outdoor dining.",
+            "lifestyle": "Good season for Kapha. Stay active, enjoy outdoor activities in the pleasant weather.",
+            "exercise": "Active exercise. Outdoor sports, hiking, cycling.",
+            "herbs": "Triphala, Guggulu, moderate spices"
+          }
+        }
+      },
+      {
+        "id": "hemanta",
+        "name": "Hemanta Ritu (Early Winter)",
+        "months": "Mid-November to Mid-January",
+        "westernEquivalent": "Early Winter",
+        "dominantDosha": "Vata can increase; Kapha begins accumulating",
+        "climate": "Cold, dewy, early frost",
+        "agniStrength": "Strongest of the year — body conserves heat, Agni blazes",
+        "recommendations": {
+          "vata": {
+            "diet": "Heavy, nourishing, oily, sweet foods. Ghee, sesame oil, warm milk, meats (if non-vegetarian), root vegetables, nuts, jaggery. Agni is strong so can digest heavier foods. This is Vata's time to build strength.",
+            "lifestyle": "Warm oil massage daily (sesame). Warm baths. Heavier blankets. Avoid cold and wind exposure. Sunbathing.",
+            "exercise": "Moderate exercise. Build strength. Indoor exercise in cold regions.",
+            "herbs": "Ashwagandha, Bala, Shatavari, Chyawanprash, warm spices, sesame preparations"
+          },
+          "pitta": {
+            "diet": "Can eat heavier, richer foods now as Agni is strong and weather is cool. Sweet, nourishing foods. Moderate warming spices are fine. Enjoy the season's richness.",
+            "lifestyle": "Comfortable season for Pitta. Oil massage with sesame or almond oil. Normal routine.",
+            "exercise": "Can increase exercise intensity. Good season for building strength and endurance.",
+            "herbs": "Chyawanprash, Ashwagandha, Shatavari, balanced spice blends"
+          },
+          "kapha": {
+            "diet": "Despite strong Agni, keep diet light and warm. Avoid excess sweet, heavy, oily foods that will accumulate as Kapha through winter. Warm spiced foods, light grains, honey.",
+            "lifestyle": "Stay very active. Dry massage. Wake early. Avoid excess sleep and sedentary habits. This is when Kapha silently accumulates — prevention is key.",
+            "exercise": "Vigorous exercise daily. Build routine for winter. Don't let cold weather become an excuse for inactivity.",
+            "herbs": "Trikatu, Guggulu, Tulsi, ginger, Punarnava"
+          }
+        }
+      }
+    ]
+  }
+}

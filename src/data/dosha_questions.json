@@ -1,0 +1,402 @@
+{
+  "metadata": {
+    "title": "Ayurveda Prakriti Assessment",
+    "version": "1.0",
+    "totalQuestions": 35,
+    "categories": ["physical", "physiological", "mental", "behavioral", "emotional"]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "category": "physical",
+      "subcategory": "body_frame",
+      "question": "What best describes your body frame?",
+      "options": [
+        { "text": "Thin, lean, tall or short, difficulty gaining weight", "dosha": "vata", "score": 3 },
+        { "text": "Medium build, muscular, well-proportioned", "dosha": "pitta", "score": 3 },
+        { "text": "Large, broad, sturdy, gains weight easily", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "physical",
+      "subcategory": "skin",
+      "question": "How would you describe your skin?",
+      "options": [
+        { "text": "Dry, rough, thin, cool to touch, prone to cracking", "dosha": "vata", "score": 3 },
+        { "text": "Warm, slightly oily, sensitive, prone to rashes or acne", "dosha": "pitta", "score": 3 },
+        { "text": "Thick, smooth, oily, cool, pale, rarely breaks out", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "physical",
+      "subcategory": "hair",
+      "question": "What best describes your hair?",
+      "options": [
+        { "text": "Dry, frizzy, thin, prone to split ends", "dosha": "vata", "score": 3 },
+        { "text": "Fine, straight, prone to early greying or thinning", "dosha": "pitta", "score": 3 },
+        { "text": "Thick, wavy, lustrous, oily", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "physical",
+      "subcategory": "eyes",
+      "question": "How would you describe your eyes?",
+      "options": [
+        { "text": "Small, dry, active, dark brown or black", "dosha": "vata", "score": 3 },
+        { "text": "Medium, sharp, penetrating, light brown, green or grey", "dosha": "pitta", "score": 3 },
+        { "text": "Large, calm, attractive, blue or deep brown", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "physical",
+      "subcategory": "teeth",
+      "question": "What best describes your teeth and gums?",
+      "options": [
+        { "text": "Irregular, protruding, thin gums, prone to receding", "dosha": "vata", "score": 3 },
+        { "text": "Medium, yellowish, soft gums that bleed easily", "dosha": "pitta", "score": 3 },
+        { "text": "Large, white, strong, healthy gums", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "physical",
+      "subcategory": "nails",
+      "question": "How would you describe your nails?",
+      "options": [
+        { "text": "Dry, brittle, rough, crack easily", "dosha": "vata", "score": 3 },
+        { "text": "Soft, pink, flexible, medium strength", "dosha": "pitta", "score": 3 },
+        { "text": "Thick, strong, smooth, white", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 7,
+      "category": "physical",
+      "subcategory": "joints",
+      "question": "How are your joints?",
+      "options": [
+        { "text": "Prominent, crack often, prone to stiffness", "dosha": "vata", "score": 3 },
+        { "text": "Loose, flexible, moderate", "dosha": "pitta", "score": 3 },
+        { "text": "Large, well-padded, well-lubricated", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 8,
+      "category": "physiological",
+      "subcategory": "digestion",
+      "question": "How is your digestion?",
+      "options": [
+        { "text": "Irregular — sometimes good, sometimes weak, bloating and gas common", "dosha": "vata", "score": 3 },
+        { "text": "Strong — can eat large meals, get irritable if meals are skipped, prone to acidity", "dosha": "pitta", "score": 3 },
+        { "text": "Slow but steady — can skip meals without discomfort, feels heavy after eating", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 9,
+      "category": "physiological",
+      "subcategory": "appetite",
+      "question": "How would you describe your appetite?",
+      "options": [
+        { "text": "Variable — sometimes ravenous, sometimes no appetite", "dosha": "vata", "score": 3 },
+        { "text": "Strong and sharp — must eat on time or get irritable", "dosha": "pitta", "score": 3 },
+        { "text": "Moderate and consistent — can comfortably skip meals", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 10,
+      "category": "physiological",
+      "subcategory": "bowel",
+      "question": "How are your bowel movements?",
+      "options": [
+        { "text": "Irregular, dry, hard, prone to constipation", "dosha": "vata", "score": 3 },
+        { "text": "Regular, loose, sometimes burning, 2+ times daily", "dosha": "pitta", "score": 3 },
+        { "text": "Regular, heavy, slow, well-formed, once daily", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 11,
+      "category": "physiological",
+      "subcategory": "sweat",
+      "question": "How much do you sweat?",
+      "options": [
+        { "text": "Very little, even in heat", "dosha": "vata", "score": 3 },
+        { "text": "Profusely, especially in heat; body odor can be strong", "dosha": "pitta", "score": 3 },
+        { "text": "Moderate but consistent; sweat is cool", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 12,
+      "category": "physiological",
+      "subcategory": "temperature",
+      "question": "What is your temperature preference?",
+      "options": [
+        { "text": "Dislike cold; prefer warmth; hands and feet are often cold", "dosha": "vata", "score": 3 },
+        { "text": "Dislike heat; prefer cool environments; feel warm easily", "dosha": "pitta", "score": 3 },
+        { "text": "Tolerate most temperatures; dislike cold and damp", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 13,
+      "category": "physiological",
+      "subcategory": "thirst",
+      "question": "How is your thirst?",
+      "options": [
+        { "text": "Variable — sometimes very thirsty, sometimes forget to drink", "dosha": "vata", "score": 3 },
+        { "text": "Frequently thirsty, need water often", "dosha": "pitta", "score": 3 },
+        { "text": "Rarely thirsty, can go long without water", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 14,
+      "category": "physiological",
+      "subcategory": "sleep",
+      "question": "How is your sleep?",
+      "options": [
+        { "text": "Light, interrupted, difficulty falling asleep, less than 6 hours", "dosha": "vata", "score": 3 },
+        { "text": "Moderate, sound when asleep but can wake easily, 6-7 hours", "dosha": "pitta", "score": 3 },
+        { "text": "Deep, heavy, hard to wake up, 8+ hours, love sleeping", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 15,
+      "category": "physiological",
+      "subcategory": "energy",
+      "question": "How does your energy fluctuate through the day?",
+      "options": [
+        { "text": "Bursts of energy followed by fatigue; energy is inconsistent", "dosha": "vata", "score": 3 },
+        { "text": "Strong and focused during the day; moderate and steady", "dosha": "pitta", "score": 3 },
+        { "text": "Slow to start but once going, have good stamina and endurance", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 16,
+      "category": "physiological",
+      "subcategory": "immunity",
+      "question": "How is your immunity?",
+      "options": [
+        { "text": "Low — catch colds easily, recover slowly", "dosha": "vata", "score": 3 },
+        { "text": "Moderate — prone to fevers, inflammation, infections", "dosha": "pitta", "score": 3 },
+        { "text": "Strong — rarely fall sick, but when sick it lingers (congestion, mucus)", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 17,
+      "category": "physiological",
+      "subcategory": "pain",
+      "question": "What type of pain or discomfort do you experience most?",
+      "options": [
+        { "text": "Sharp, shifting, nerve-related pain; cramps and spasms", "dosha": "vata", "score": 3 },
+        { "text": "Burning, inflammatory pain; headaches; acid reflux", "dosha": "pitta", "score": 3 },
+        { "text": "Dull, heavy aches; congestion; water retention", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 18,
+      "category": "mental",
+      "subcategory": "mind",
+      "question": "How would you describe your mind?",
+      "options": [
+        { "text": "Quick, restless, imaginative, many ideas at once", "dosha": "vata", "score": 3 },
+        { "text": "Sharp, focused, analytical, critical", "dosha": "pitta", "score": 3 },
+        { "text": "Calm, steady, methodical, slow but thorough", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 19,
+      "category": "mental",
+      "subcategory": "learning",
+      "question": "How do you learn best?",
+      "options": [
+        { "text": "Learn quickly but forget quickly; grasp concepts fast", "dosha": "vata", "score": 3 },
+        { "text": "Learn at moderate pace with good comprehension; logical approach", "dosha": "pitta", "score": 3 },
+        { "text": "Learn slowly but never forget; need repetition", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 20,
+      "category": "mental",
+      "subcategory": "memory",
+      "question": "How is your memory?",
+      "options": [
+        { "text": "Short-term is good but long-term is weak", "dosha": "vata", "score": 3 },
+        { "text": "Sharp and precise; good recall", "dosha": "pitta", "score": 3 },
+        { "text": "Takes time to memorize but retains for a very long time", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 21,
+      "category": "mental",
+      "subcategory": "concentration",
+      "question": "How well do you concentrate?",
+      "options": [
+        { "text": "Easily distracted; mind jumps between topics", "dosha": "vata", "score": 3 },
+        { "text": "Intense focus but can become obsessive or overworked", "dosha": "pitta", "score": 3 },
+        { "text": "Steady, sustained focus once engaged; slow to start", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 22,
+      "category": "mental",
+      "subcategory": "dreams",
+      "question": "What are your dreams like?",
+      "options": [
+        { "text": "Active, flying, running, fearful, vivid but forgotten quickly", "dosha": "vata", "score": 3 },
+        { "text": "Intense, colorful, fiery, conflict-driven, adventurous", "dosha": "pitta", "score": 3 },
+        { "text": "Calm, romantic, watery, few dreams, peaceful", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 23,
+      "category": "emotional",
+      "subcategory": "stress_response",
+      "question": "How do you typically respond to stress?",
+      "options": [
+        { "text": "Become anxious, worried, fearful, overthink", "dosha": "vata", "score": 3 },
+        { "text": "Become irritable, angry, frustrated, critical", "dosha": "pitta", "score": 3 },
+        { "text": "Withdraw, become quiet, avoid confrontation, feel stuck", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 24,
+      "category": "emotional",
+      "subcategory": "emotions",
+      "question": "What emotions do you experience most often?",
+      "options": [
+        { "text": "Anxiety, nervousness, excitement, enthusiasm", "dosha": "vata", "score": 3 },
+        { "text": "Ambition, determination, frustration, impatience", "dosha": "pitta", "score": 3 },
+        { "text": "Contentment, attachment, sentimentality, lethargy", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 25,
+      "category": "emotional",
+      "subcategory": "relationships",
+      "question": "How do you approach relationships?",
+      "options": [
+        { "text": "Make friends easily but relationships can be superficial; changeable", "dosha": "vata", "score": 3 },
+        { "text": "Selective with friendships; loyal but can be demanding or jealous", "dosha": "pitta", "score": 3 },
+        { "text": "Deep, lasting bonds; very loyal; can become possessive or dependent", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 26,
+      "category": "behavioral",
+      "subcategory": "speech",
+      "question": "How would you describe your speech?",
+      "options": [
+        { "text": "Fast, talkative, may go off-topic, variable volume", "dosha": "vata", "score": 3 },
+        { "text": "Clear, sharp, precise, sometimes argumentative or cutting", "dosha": "pitta", "score": 3 },
+        { "text": "Slow, deliberate, melodious, thoughtful, few words", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 27,
+      "category": "behavioral",
+      "subcategory": "walking",
+      "question": "How do you walk?",
+      "options": [
+        { "text": "Fast, light, unsteady, quick steps", "dosha": "vata", "score": 3 },
+        { "text": "Determined, purposeful, moderate pace", "dosha": "pitta", "score": 3 },
+        { "text": "Slow, steady, graceful, unhurried", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 28,
+      "category": "behavioral",
+      "subcategory": "spending",
+      "question": "How do you handle money?",
+      "options": [
+        { "text": "Spend impulsively; money comes and goes easily", "dosha": "vata", "score": 3 },
+        { "text": "Spend on quality and luxury; planned but generous", "dosha": "pitta", "score": 3 },
+        { "text": "Save well; cautious with spending; accumulate wealth", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 29,
+      "category": "behavioral",
+      "subcategory": "decision_making",
+      "question": "How do you make decisions?",
+      "options": [
+        { "text": "Quickly but often change my mind; indecisive", "dosha": "vata", "score": 3 },
+        { "text": "Decisively and confidently; rarely second-guess", "dosha": "pitta", "score": 3 },
+        { "text": "Slowly and carefully; once decided, rarely change", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 30,
+      "category": "behavioral",
+      "subcategory": "routine",
+      "question": "How do you feel about routines?",
+      "options": [
+        { "text": "Dislike routine; prefer variety and spontaneity", "dosha": "vata", "score": 3 },
+        { "text": "Like structured routines; enjoy planning and organizing", "dosha": "pitta", "score": 3 },
+        { "text": "Love routine; feel uncomfortable with change", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 31,
+      "category": "behavioral",
+      "subcategory": "creativity",
+      "question": "How does your creativity express itself?",
+      "options": [
+        { "text": "Highly imaginative; many ideas; artistic but scattered", "dosha": "vata", "score": 3 },
+        { "text": "Inventive and strategic; good at problem-solving and innovation", "dosha": "pitta", "score": 3 },
+        { "text": "Steady and practical; good at refining and perfecting ideas", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 32,
+      "category": "physical",
+      "subcategory": "voice",
+      "question": "How would you describe your voice?",
+      "options": [
+        { "text": "Hoarse, thin, weak, or cracking", "dosha": "vata", "score": 3 },
+        { "text": "Sharp, clear, commanding, medium pitch", "dosha": "pitta", "score": 3 },
+        { "text": "Deep, pleasant, melodious, resonant", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 33,
+      "category": "physiological",
+      "subcategory": "menstrual_cycle",
+      "question": "If applicable, how is your menstrual cycle?",
+      "options": [
+        { "text": "Irregular, scanty, painful cramps, dark blood", "dosha": "vata", "score": 3 },
+        { "text": "Regular, heavy flow, warm, prone to PMS irritability", "dosha": "pitta", "score": 3 },
+        { "text": "Regular, moderate, mild symptoms, water retention", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 34,
+      "category": "behavioral",
+      "subcategory": "work_style",
+      "question": "What is your work style?",
+      "options": [
+        { "text": "Multitasker; enthusiastic starter but may not finish; works in bursts", "dosha": "vata", "score": 3 },
+        { "text": "Goal-oriented; competitive; efficient; can overwork", "dosha": "pitta", "score": 3 },
+        { "text": "Steady, reliable; prefers a set pace; great at completing tasks", "dosha": "kapha", "score": 3 }
+      ]
+    },
+    {
+      "id": 35,
+      "category": "emotional",
+      "subcategory": "forgiveness",
+      "question": "How easily do you forgive?",
+      "options": [
+        { "text": "Forgive easily; don't hold grudges; forget quickly", "dosha": "vata", "score": 3 },
+        { "text": "Take time to forgive; may hold resentment; need resolution", "dosha": "pitta", "score": 3 },
+        { "text": "Slow to anger but slow to forgive; hold on for a long time", "dosha": "kapha", "score": 3 }
+      ]
+    }
+  ],
+  "scoring": {
+    "method": "Sum scores per dosha. Highest = dominant dosha. If two are close (within 15%), classify as dual-dosha.",
+    "doshaTypes": ["vata", "pitta", "kapha"],
+    "dualDoshaTypes": ["vata-pitta", "pitta-vata", "pitta-kapha", "kapha-pitta", "vata-kapha", "kapha-vata"],
+    "triDoshaType": "tridoshic",
+    "thresholdForDual": 0.15
+  }
+}

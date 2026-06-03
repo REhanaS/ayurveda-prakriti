@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-vata: #7c9eb2;
+  --color-pitta: #c0704a;
+  --color-kapha: #6b8f71;
+  --color-earth-50: #faf7f2;
+  --color-earth-100: #f3ede0;
+  --color-earth-200: #e8dcc8;
+  --color-earth-300: #d4c4a8;
+  --color-earth-500: #9c8660;
+  --color-earth-700: #5c4d33;
+  --color-earth-900: #2d2418;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #faf7f2;
+  color: #2d2418;
+  -webkit-font-smoothing: antialiased;
+}

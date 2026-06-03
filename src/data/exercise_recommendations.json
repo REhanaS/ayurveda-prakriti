@@ -1,0 +1,198 @@
+{
+  "exerciseRecommendations": {
+    "vata": {
+      "dosha": "Vata",
+      "principle": "Gentle, grounding, rhythmic. Exercise to 50% capacity. Avoid exhaustion. Warmth and regularity matter.",
+      "intensity": "Low to moderate",
+      "frequency": "Daily, 20-30 minutes",
+      "bestTiming": "Morning (7-8 AM) or early evening. Avoid late night exercise.",
+      "capacityRule": "Stop when you start breathing through your mouth or sweating on forehead. Vata should never feel drained after exercise.",
+      "recommended": [
+        {
+          "activity": "Yoga (Hatha/Restorative)",
+          "details": "Grounding poses: Tadasana (Mountain), Virabhadrasana (Warrior), Vrksasana (Tree), Balasana (Child's), Paschimottanasana (Seated Forward Bend), Savasana (extended). Slow, steady flow. Hold poses longer.",
+          "frequency": "Daily"
+        },
+        {
+          "activity": "Walking",
+          "details": "Gentle, rhythmic walking in nature. Flat terrain preferred. Avoid windy or cold conditions.",
+          "frequency": "Daily, 20-30 min"
+        },
+        {
+          "activity": "Tai Chi / Qigong",
+          "details": "Slow, flowing movements. Excellent for Vata's nervous system. Grounding and calming.",
+          "frequency": "3-5 times/week"
+        },
+        {
+          "activity": "Swimming (warm pool)",
+          "details": "Gentle laps in a heated pool. The water supports Vata's joints. Avoid cold water.",
+          "frequency": "2-3 times/week"
+        },
+        {
+          "activity": "Dance (slow, graceful)",
+          "details": "Slow, rhythmic dance like ballroom, classical Indian dance. Grounds the body while being creative.",
+          "frequency": "2-3 times/week"
+        },
+        {
+          "activity": "Light cycling",
+          "details": "Easy, flat terrain. Gentle pace. Indoor cycling in cold weather.",
+          "frequency": "2-3 times/week"
+        },
+        {
+          "activity": "Stretching / Gentle Pilates",
+          "details": "Slow, supported stretches. Focus on joints and flexibility without strain.",
+          "frequency": "Daily"
+        }
+      ],
+      "avoid": [
+        "High-intensity interval training (HIIT)",
+        "Long-distance running",
+        "Excessive cardio",
+        "Contact sports",
+        "Exercising in cold, windy weather",
+        "Competitive sports (creates mental stress)",
+        "Power lifting (heavy weights)",
+        "Hot yoga (too depleting)",
+        "Any exercise that leaves you exhausted"
+      ],
+      "yogaPranayama": {
+        "asanas": ["Tadasana", "Virabhadrasana I & II", "Vrksasana", "Balasana", "Supta Baddha Konasana", "Paschimottanasana", "Viparita Karani (Legs Up Wall)", "Savasana (extended, 10-15 min)"],
+        "pranayama": ["Nadi Shodhana (Alternate Nostril)", "Ujjayi (Ocean Breath)", "Bhramari (Humming Bee)"],
+        "avoid": ["Kapalabhati (too stimulating)", "Bhastrika (too intense)", "Rapid sun salutations"]
+      }
+    },
+    "pitta": {
+      "dosha": "Pitta",
+      "principle": "Moderate, cooling, non-competitive. Exercise to 70% capacity. Avoid overheating and aggression. Fun over performance.",
+      "intensity": "Moderate",
+      "frequency": "Daily, 30-45 minutes",
+      "bestTiming": "Early morning (6-8 AM) or evening (after 6 PM). NEVER exercise in midday heat.",
+      "capacityRule": "Stop when perspiration appears on nose, forehead, and armpits. Pitta should feel pleasantly worked, not overheated or aggressive.",
+      "recommended": [
+        {
+          "activity": "Swimming",
+          "details": "THE best exercise for Pitta. Cooling, full-body, non-competitive. Lakes, pools, ocean — all excellent.",
+          "frequency": "4-5 times/week"
+        },
+        {
+          "activity": "Yoga (Moon Salutations / Cooling Flow)",
+          "details": "Chandra Namaskar, forward bends, twists, gentle inversions. Avoid hot yoga. Focus on surrender and letting go rather than achievement.",
+          "frequency": "Daily"
+        },
+        {
+          "activity": "Cycling",
+          "details": "Moderate pace. Scenic routes in nature. Early morning or evening. Enjoy the journey, not the speed.",
+          "frequency": "3-4 times/week"
+        },
+        {
+          "activity": "Hiking / Nature Walks",
+          "details": "Moderate trails, ideally near water or in forests. Shaded paths. Morning or late afternoon.",
+          "frequency": "2-3 times/week"
+        },
+        {
+          "activity": "Team sports (recreational)",
+          "details": "Play for fun, not competition. Cricket, volleyball, badminton at a relaxed pace. Avoid getting heated or angry.",
+          "frequency": "2-3 times/week"
+        },
+        {
+          "activity": "Skiing / Ice skating",
+          "details": "Winter sports are excellent for Pitta — cooling and exhilarating.",
+          "frequency": "Seasonal"
+        },
+        {
+          "activity": "Moderate weight training",
+          "details": "Moderate weights, moderate reps. Focus on form over heavy lifting. Avoid ego-driven lifting.",
+          "frequency": "2-3 times/week"
+        },
+        {
+          "activity": "Dance",
+          "details": "Expressive, joyful dance. Avoid overly competitive dance forms.",
+          "frequency": "2-3 times/week"
+        }
+      ],
+      "avoid": [
+        "Exercising in hot sun or midday heat",
+        "Highly competitive sports (triggers Pitta aggression)",
+        "Hot yoga / Bikram yoga",
+        "Excessive running in heat",
+        "Contact sports (boxing, MMA — triggers anger)",
+        "Overtraining / pushing past limits",
+        "Exercising when angry or frustrated"
+      ],
+      "yogaPranayama": {
+        "asanas": ["Chandra Namaskar (Moon Salutation)", "Ardha Matsyendrasana (Seated Twist)", "Paschimottanasana (Forward Bend)", "Supta Virasana", "Bhujangasana (gentle Cobra)", "Setu Bandhasana (Bridge)", "Viparita Karani", "Savasana"],
+        "pranayama": ["Sheetali (Cooling Breath)", "Sheetkari", "Nadi Shodhana", "Chandrabhedana (Left Nostril Breathing)"],
+        "avoid": ["Kapalabhati (too heating)", "Bhastrika", "Hot yoga", "Extended headstands (blood rush to head)"]
+      }
+    },
+    "kapha": {
+      "dosha": "Kapha",
+      "principle": "Vigorous, stimulating, varied. Exercise to 80-90% capacity. Build a sweat. Variety prevents boredom. This is the MOST important lifestyle practice for Kapha.",
+      "intensity": "High",
+      "frequency": "Daily, 45-60 minutes (non-negotiable)",
+      "bestTiming": "Early morning (6-7 AM) — exercising during Kapha time (6-10 AM) directly counters Kapha's heaviness. This is the ideal window.",
+      "capacityRule": "Push until you're sweating well and breathing hard. Kapha should feel energized and light after exercise. If you're not sweating, you're not doing enough.",
+      "recommended": [
+        {
+          "activity": "Running / Jogging",
+          "details": "Vigorous running. Interval training. Build stamina progressively. Run in different environments for variety.",
+          "frequency": "4-5 times/week"
+        },
+        {
+          "activity": "Yoga (Power / Vinyasa / Ashtanga)",
+          "details": "Dynamic, flowing, heat-building yoga. Surya Namaskar (10-12 rounds minimum). Backbends, inversions, strong standing poses. Fast pace.",
+          "frequency": "Daily"
+        },
+        {
+          "activity": "HIIT (High-Intensity Interval Training)",
+          "details": "The best modern exercise for Kapha. Short bursts of intense effort. Burns fat, builds metabolism, creates lightness.",
+          "frequency": "3-4 times/week"
+        },
+        {
+          "activity": "Martial Arts / Kickboxing",
+          "details": "Dynamic, stimulating, builds discipline and strength. Excellent for breaking Kapha inertia.",
+          "frequency": "3-4 times/week"
+        },
+        {
+          "activity": "Weight Training",
+          "details": "Heavy weights, moderate reps. Build lean muscle mass. Circuit training for cardio benefit. Compound movements.",
+          "frequency": "3-4 times/week"
+        },
+        {
+          "activity": "Dancing (energetic)",
+          "details": "Fast-paced dance: Zumba, Bollywood dance, aerobic dance. Keeps it fun while building a sweat.",
+          "frequency": "3-4 times/week"
+        },
+        {
+          "activity": "Cycling / Spinning",
+          "details": "Vigorous cycling, hill climbs, spinning classes. High intensity preferred.",
+          "frequency": "3-4 times/week"
+        },
+        {
+          "activity": "Competitive Sports",
+          "details": "Football, basketball, tennis, squash — competitive sports motivate Kapha to push harder.",
+          "frequency": "2-3 times/week"
+        },
+        {
+          "activity": "Trekking / Mountain Hiking",
+          "details": "Challenging trails, steep inclines. The effort and variety break Kapha stagnation beautifully.",
+          "frequency": "Weekly"
+        }
+      ],
+      "avoid": [
+        "Sedentary lifestyle (the worst thing for Kapha)",
+        "Only doing gentle/restorative yoga",
+        "Skipping exercise due to laziness or weather",
+        "Excessive rest between sets",
+        "Walking only (too gentle for primary exercise — fine as supplement)",
+        "Excessive swimming (water element increases Kapha — use sparingly)",
+        "Any excuse to avoid exercise"
+      ],
+      "yogaPranayama": {
+        "asanas": ["Surya Namaskar (12+ rounds, fast pace)", "Ustrasana (Camel)", "Dhanurasana (Bow)", "Sarvangasana (Shoulderstand)", "Sirsasana (Headstand)", "Navasana (Boat)", "Virabhadrasana III (Warrior III)", "Bakasana (Crow)", "Handstand practice"],
+        "pranayama": ["Kapalabhati (Skull-Shining — primary pranayama for Kapha)", "Bhastrika (Bellows Breath)", "Surya Bhedana (Right Nostril Breathing)"],
+        "avoid": ["Excessive Savasana", "Only restorative/yin yoga", "Slow, passive practices without heat-building elements"]
+      }
+    }
+  }
+}

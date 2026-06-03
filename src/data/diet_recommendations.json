@@ -1,0 +1,160 @@
+{
+  "dietRecommendations": {
+    "vata": {
+      "dosha": "Vata",
+      "generalPrinciples": "Favor warm, cooked, moist, grounding foods. Eat at regular times. Avoid raw, cold, dry foods. Sweet, sour, and salty tastes balance Vata.",
+      "tastes": {
+        "favor": ["Sweet (Madhura)", "Sour (Amla)", "Salty (Lavana)"],
+        "reduce": ["Pungent (Katu)", "Bitter (Tikta)", "Astringent (Kashaya)"]
+      },
+      "mealGuidelines": {
+        "breakfast": "Warm, cooked — oatmeal with ghee and cinnamon, warm milk with dates, stewed apples, upma, poha with warm spices",
+        "lunch": "Largest meal. Rice with dal, cooked vegetables with ghee, warm soups, khichdi, chapati with sabzi. Include all six tastes.",
+        "dinner": "Light but warm — soups, light khichdi, steamed vegetables with rice, warm milk before bed",
+        "snacks": "Soaked almonds, dates, warm milk, sesame laddoos, cooked sweet potato"
+      },
+      "foodCategories": {
+        "grains": {
+          "favor": ["Basmati rice", "Wheat", "Oats (cooked)", "Quinoa"],
+          "avoid": ["Barley", "Millet", "Buckwheat", "Corn", "Dry crackers", "Cold cereals"]
+        },
+        "legumes": {
+          "favor": ["Mung dal", "Red lentils (masoor)", "Tofu (warm)", "Urad dal"],
+          "avoid": ["Chickpeas (excess)", "Kidney beans", "Black beans", "Lima beans", "Raw soy"]
+        },
+        "vegetables": {
+          "favor": ["Asparagus", "Beetroot", "Carrots", "Sweet potato", "Pumpkin", "Zucchini", "Okra", "Green beans", "Spinach (cooked)", "Onion (cooked)"],
+          "avoid": ["Raw salads", "Cabbage (raw)", "Cauliflower (excess)", "Broccoli (raw)", "Bell peppers (raw)", "Sprouts", "Mushrooms", "Celery"]
+        },
+        "fruits": {
+          "favor": ["Bananas", "Mangoes", "Grapes", "Cherries", "Peaches", "Avocado", "Papaya", "Dates", "Figs", "Stewed apples"],
+          "avoid": ["Dried fruits (excess)", "Raw apples", "Cranberries", "Pomegranate", "Watermelon (excess)"]
+        },
+        "dairy": {
+          "favor": ["Warm milk", "Ghee", "Fresh paneer", "Butter", "Cream", "Warm lassi"],
+          "avoid": ["Cold milk", "Ice cream", "Frozen yogurt"]
+        },
+        "oils": {
+          "favor": ["Sesame oil", "Ghee", "Olive oil", "Almond oil"],
+          "avoid": ["Flaxseed oil (excess)"]
+        },
+        "spices": {
+          "favor": ["Ginger", "Cinnamon", "Cardamom", "Cumin", "Fennel", "Turmeric", "Black pepper (small amounts)", "Asafoetida (hing)", "Nutmeg", "Clove", "Fenugreek"],
+          "avoid": ["Excessive hot chili", "Raw onion", "Horseradish"]
+        },
+        "sweeteners": {
+          "favor": ["Jaggery", "Honey (in moderation)", "Maple syrup", "Date sugar", "Raw sugar"],
+          "avoid": ["White refined sugar", "Artificial sweeteners"]
+        },
+        "beverages": {
+          "favor": ["Warm water", "Ginger tea", "Spiced milk", "Cumin-coriander-fennel tea", "Warm herbal teas"],
+          "avoid": ["Cold drinks", "Iced beverages", "Carbonated drinks", "Excess coffee", "Black tea (excess)"]
+        }
+      }
+    },
+    "pitta": {
+      "dosha": "Pitta",
+      "generalPrinciples": "Favor cooling, moderately heavy foods. Sweet, bitter, and astringent tastes balance Pitta. Avoid hot, spicy, fermented, and acidic foods. Can eat some raw foods (unlike Vata).",
+      "tastes": {
+        "favor": ["Sweet (Madhura)", "Bitter (Tikta)", "Astringent (Kashaya)"],
+        "reduce": ["Pungent (Katu)", "Sour (Amla)", "Salty (Lavana)"]
+      },
+      "mealGuidelines": {
+        "breakfast": "Moderate, cooling — sweet fruits, oatmeal with cardamom, toast with ghee, coconut pancakes, sweet lassi",
+        "lunch": "Largest meal. Basmati rice, cooling vegetables, salads with cucumber and coriander, dal, coconut chutney. Moderate portions.",
+        "dinner": "Moderate, light — kitchari, steamed vegetables, light grain preparations, cooling soups",
+        "snacks": "Sweet fruits (grapes, pear, melon), coconut, dates, sunflower seeds, cooling herbal tea"
+      },
+      "foodCategories": {
+        "grains": {
+          "favor": ["Basmati rice", "Wheat", "Oats", "Barley", "Quinoa", "Amaranth"],
+          "avoid": ["Brown rice (excess)", "Corn", "Millet", "Buckwheat", "Rye"]
+        },
+        "legumes": {
+          "favor": ["Mung dal", "Green gram", "Lentils", "Chickpeas", "Black beans", "Tofu", "Kidney beans (moderate)"],
+          "avoid": ["Urad dal (excess)", "Fermented soy (tempeh, miso)"]
+        },
+        "vegetables": {
+          "favor": ["Cucumber", "Zucchini", "Asparagus", "Broccoli", "Cauliflower", "Leafy greens", "Celery", "Green beans", "Peas", "Sweet potato", "Pumpkin", "Bitter gourd", "Cabbage"],
+          "avoid": ["Tomatoes (excess)", "Hot peppers", "Raw onion", "Garlic (excess)", "Radish", "Beetroot (excess)", "Eggplant"]
+        },
+        "fruits": {
+          "favor": ["Sweet grapes", "Melons", "Pears", "Sweet apples", "Pomegranate", "Coconut", "Figs", "Sweet mangoes", "Avocado", "Sweet berries"],
+          "avoid": ["Sour fruits", "Unripe mango", "Papaya (excess)", "Grapefruit", "Sour oranges", "Tamarind"]
+        },
+        "dairy": {
+          "favor": ["Milk", "Ghee", "Butter (unsalted)", "Fresh paneer", "Sweet lassi", "Coconut milk"],
+          "avoid": ["Sour cream", "Hard cheese", "Salted butter", "Sour yogurt", "Buttermilk (sour)"]
+        },
+        "oils": {
+          "favor": ["Ghee", "Coconut oil", "Sunflower oil", "Olive oil"],
+          "avoid": ["Sesame oil", "Mustard oil", "Almond oil", "Corn oil"]
+        },
+        "spices": {
+          "favor": ["Coriander", "Fennel", "Cardamom", "Turmeric", "Cumin (moderate)", "Saffron", "Mint", "Dill", "Fresh ginger (small amounts)"],
+          "avoid": ["Chili", "Cayenne", "Black pepper (excess)", "Mustard seeds", "Dry ginger (excess)", "Fenugreek", "Asafoetida", "Clove (excess)", "Garlic"]
+        },
+        "sweeteners": {
+          "favor": ["Jaggery", "Raw sugar", "Maple syrup", "Date sugar", "Coconut sugar"],
+          "avoid": ["Honey (excess — it's heating)", "Molasses", "White refined sugar"]
+        },
+        "beverages": {
+          "favor": ["Coconut water", "Mint tea", "Rose water drinks", "Cool (not iced) water", "Fennel tea", "Coriander water", "Aloe vera juice", "Sweet fruit juices"],
+          "avoid": ["Alcohol", "Coffee", "Hot spiced teas", "Carbonated drinks", "Sour juices", "Tomato juice"]
+        }
+      }
+    },
+    "kapha": {
+      "dosha": "Kapha",
+      "generalPrinciples": "Favor light, warm, dry, well-spiced foods. Pungent, bitter, and astringent tastes balance Kapha. Reduce sweet, sour, and salty. Eat less and less often. Fasting is beneficial.",
+      "tastes": {
+        "favor": ["Pungent (Katu)", "Bitter (Tikta)", "Astringent (Kashaya)"],
+        "reduce": ["Sweet (Madhura)", "Sour (Amla)", "Salty (Lavana)"]
+      },
+      "mealGuidelines": {
+        "breakfast": "Optional — skip or eat very light. Warm ginger tea, light fruits (apple, pear), small bowl of hot cereal with honey. Absolutely no heavy/sweet breakfast.",
+        "lunch": "Main meal but moderate portions. Spiced vegetables, light grains (barley, millet), legumes, leafy greens, bitter vegetables. Minimal oil and dairy.",
+        "dinner": "Lightest meal, eat early (before 7 PM). Warm soup, steamed vegetables, light dal. Can skip if not hungry.",
+        "snacks": "Avoid snacking when possible. If needed: raw vegetables, popcorn (no butter), spiced roasted seeds, ginger tea with honey"
+      },
+      "foodCategories": {
+        "grains": {
+          "favor": ["Barley", "Millet", "Buckwheat", "Corn", "Rye", "Quinoa", "Amaranth", "Old/aged rice"],
+          "avoid": ["New rice", "Wheat (excess)", "Oats (excess)", "White rice", "Pasta", "Bread (excess)"]
+        },
+        "legumes": {
+          "favor": ["Mung dal", "Red lentils", "Horse gram (kulthi)", "Split peas", "Moth beans", "All legumes generally good for Kapha"],
+          "avoid": ["Soy products (excess)", "Kidney beans (excess)", "Urad dal", "Black gram"]
+        },
+        "vegetables": {
+          "favor": ["Leafy greens (all)", "Bitter gourd", "Drumstick", "Cabbage", "Broccoli", "Cauliflower", "Celery", "Radish", "Artichoke", "Asparagus", "Bell peppers", "Sprouts", "Onion", "Garlic", "Eggplant"],
+          "avoid": ["Sweet potato (excess)", "Pumpkin (excess)", "Cucumber (excess)", "Tomato (excess)", "Zucchini (excess)", "Olives"]
+        },
+        "fruits": {
+          "favor": ["Apples", "Pears", "Pomegranate", "Cranberries", "Berries", "Dry figs", "Apricots", "Cherries", "Lemons"],
+          "avoid": ["Bananas", "Dates", "Mangoes", "Coconut", "Melons", "Grapes", "Sweet oranges", "Pineapple", "Avocado", "Figs (fresh)"]
+        },
+        "dairy": {
+          "favor": ["Low-fat goat milk (warm)", "Small amounts of ghee", "Diluted buttermilk with spices"],
+          "avoid": ["Milk (especially cold)", "Cheese", "Cream", "Butter", "Ice cream", "Yogurt", "Paneer", "Full-fat dairy"]
+        },
+        "oils": {
+          "favor": ["Mustard oil (small amounts)", "Corn oil", "Sunflower oil", "Use minimal oil overall"],
+          "avoid": ["Sesame oil", "Ghee (excess)", "Coconut oil", "Olive oil (excess)", "Butter", "Any oil in excess"]
+        },
+        "spices": {
+          "favor": ["Black pepper", "Ginger (dry and fresh)", "Turmeric", "Chili", "Mustard seeds", "Fenugreek", "Cinnamon", "Clove", "Garlic", "Asafoetida", "Cumin", "Coriander seeds", "Trikatu"],
+          "avoid": ["Salt (excess)", "Tamarind"]
+        },
+        "sweeteners": {
+          "favor": ["Raw honey (only sweetener recommended — never heated)", "Stevia"],
+          "avoid": ["Sugar (all types)", "Jaggery", "Maple syrup", "Molasses", "Date sugar", "Artificial sweeteners"]
+        },
+        "beverages": {
+          "favor": ["Ginger tea", "Cinnamon tea", "Tulsi tea", "Black tea (moderate)", "Warm water with honey", "Dandelion tea", "Green tea"],
+          "avoid": ["Cold drinks", "Sweet juices", "Milkshakes", "Smoothies", "Dairy-based drinks", "Alcohol (especially beer and sweet wine)", "Excess water"]
+        }
+      }
+    }
+  }
+}

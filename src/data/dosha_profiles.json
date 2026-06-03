@@ -1,0 +1,68 @@
+{
+  "doshaProfiles": {
+    "vata": {
+      "name": "Vata",
+      "elements": ["Air", "Ether (Space)"],
+      "qualities": ["Dry", "Light", "Cold", "Rough", "Subtle", "Mobile", "Clear"],
+      "summary": "Vata governs all movement in the body and mind. Creative, quick-thinking, and enthusiastic when balanced. Prone to anxiety, dryness, and irregularity when imbalanced.",
+      "physicalTraits": ["Thin, light frame", "Dry skin and hair", "Cold hands and feet", "Irregular digestion", "Light, interrupted sleep", "Prominent joints", "Quick movements"],
+      "mentalTraits": ["Creative and imaginative", "Quick to learn, quick to forget", "Restless mind", "Enthusiastic but inconsistent", "Flexible and adaptable"],
+      "emotionalTraits": ["Joyful and lively when balanced", "Anxious and fearful when imbalanced", "Emotionally sensitive", "Quick to react, quick to recover"],
+      "balancedState": "Creative, energetic, joyful, flexible, clear communicator, quick learner",
+      "imbalancedSigns": ["Anxiety and worry", "Insomnia", "Dry skin and constipation", "Joint pain and cracking", "Bloating and gas", "Weight loss", "Restlessness", "Scattered thinking"],
+      "seasonalVulnerability": "Late autumn and early winter (Hemanta/Shishira) — cold, dry, windy weather aggravates Vata",
+      "timeOfDay": "2:00 AM – 6:00 AM and 2:00 PM – 6:00 PM"
+    },
+    "pitta": {
+      "name": "Pitta",
+      "elements": ["Fire", "Water"],
+      "qualities": ["Hot", "Sharp", "Light", "Liquid", "Oily", "Spreading"],
+      "summary": "Pitta governs transformation, digestion, and metabolism. Intelligent, focused, and driven when balanced. Prone to anger, inflammation, and burnout when imbalanced.",
+      "physicalTraits": ["Medium, athletic build", "Warm skin, prone to rashes", "Fine hair, early greying", "Strong digestion", "Moderate, sound sleep", "Sharp eyes", "Perspire easily"],
+      "mentalTraits": ["Sharp intellect", "Focused and determined", "Natural leaders", "Logical and analytical", "Good speakers and debaters"],
+      "emotionalTraits": ["Courageous and confident when balanced", "Irritable and critical when imbalanced", "Passionate", "Competitive"],
+      "balancedState": "Intelligent, confident, courageous, strong digestion, good leader, warm personality",
+      "imbalancedSigns": ["Anger and irritability", "Acid reflux and heartburn", "Skin rashes and inflammation", "Excessive body heat", "Loose stools", "Perfectionism", "Burnout", "Jealousy"],
+      "seasonalVulnerability": "Summer and late spring (Grishma) — hot weather aggravates Pitta",
+      "timeOfDay": "10:00 AM – 2:00 PM and 10:00 PM – 2:00 AM"
+    },
+    "kapha": {
+      "name": "Kapha",
+      "elements": ["Water", "Earth"],
+      "qualities": ["Heavy", "Slow", "Cool", "Oily", "Smooth", "Dense", "Soft", "Stable", "Gross", "Cloudy"],
+      "summary": "Kapha governs structure, stability, and lubrication. Loving, patient, and grounded when balanced. Prone to lethargy, weight gain, and attachment when imbalanced.",
+      "physicalTraits": ["Large, sturdy frame", "Smooth, oily skin", "Thick, lustrous hair", "Slow digestion", "Deep, heavy sleep", "Strong immunity", "Gains weight easily"],
+      "mentalTraits": ["Calm and steady mind", "Slow to learn but excellent memory", "Methodical and thorough", "Patient and tolerant", "Good long-term planners"],
+      "emotionalTraits": ["Loving and compassionate when balanced", "Possessive and greedy when imbalanced", "Loyal and devoted", "Resistant to change"],
+      "balancedState": "Loving, patient, grounded, strong immunity, steady energy, loyal, nurturing",
+      "imbalancedSigns": ["Weight gain", "Lethargy and excessive sleep", "Congestion and mucus", "Depression", "Attachment and possessiveness", "Procrastination", "Water retention", "Sluggish digestion"],
+      "seasonalVulnerability": "Late winter and spring (Shishira/Vasanta) — cold, damp weather aggravates Kapha",
+      "timeOfDay": "6:00 AM – 10:00 AM and 6:00 PM – 10:00 PM"
+    }
+  },
+  "dualDoshaProfiles": {
+    "vata-pitta": {
+      "name": "Vata-Pitta",
+      "summary": "Combines Vata's creativity and movement with Pitta's sharpness and drive. Quick, enthusiastic, and intellectually agile. May alternate between anxiety (Vata) and irritability (Pitta) when stressed.",
+      "keyTraits": ["Thin to medium build", "Quick learner with good retention", "Energetic and driven", "Can burn out from overexertion"],
+      "balancingFocus": "Ground and cool — prioritize routine, warmth, and calming foods"
+    },
+    "pitta-kapha": {
+      "name": "Pitta-Kapha",
+      "summary": "Combines Pitta's intensity with Kapha's endurance. Strong, athletic, determined, and resilient. Can be stubborn and prone to both inflammation and weight gain when imbalanced.",
+      "keyTraits": ["Medium to large, muscular build", "Strong digestion and immunity", "Determined and persistent", "Natural athletes and leaders"],
+      "balancingFocus": "Stay active and light — avoid heavy foods and sedentary habits"
+    },
+    "vata-kapha": {
+      "name": "Vata-Kapha",
+      "summary": "Combines Vata's creativity with Kapha's steadiness. Can be both adaptable and grounded. May struggle with cold sensitivity (both doshas are cold) and alternating between anxiety and lethargy.",
+      "keyTraits": ["Variable build — can be thin or heavy", "Creative but steady", "Gentle and kind", "Cold sensitivity is pronounced"],
+      "balancingFocus": "Warmth and stimulation — prioritize warm foods, regular exercise, and consistent routine"
+    }
+  },
+  "tridoshic": {
+    "name": "Tridoshic (Sama Prakriti)",
+    "summary": "Rare constitution where all three doshas are in equal balance. Generally enjoy good health and adaptability. Should follow seasonal routines to maintain balance.",
+    "balancingFocus": "Follow seasonal (Ritucharya) guidelines as the primary guide"
+  }
+}

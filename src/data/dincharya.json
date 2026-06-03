@@ -1,0 +1,368 @@
+{
+  "dincharya": {
+    "vata": {
+      "dosha": "Vata",
+      "theme": "Ground, warm, and nourish — establish regularity",
+      "routine": [
+        {
+          "time": "6:00 AM",
+          "activity": "Brahma Muhurta — Wake Up",
+          "details": "Wake gently. Avoid rushing. Say a prayer or set an intention. Vata benefits from waking at a consistent time daily.",
+          "duration": "5 min"
+        },
+        {
+          "time": "6:05 AM",
+          "activity": "Ushapana — Warm Water",
+          "details": "Drink a glass of warm water with a pinch of ginger to stimulate digestion and relieve constipation.",
+          "duration": "5 min"
+        },
+        {
+          "time": "6:10 AM",
+          "activity": "Mala Tyaga — Elimination",
+          "details": "Allow natural elimination. Warm water helps. Do not strain or rush.",
+          "duration": "10 min"
+        },
+        {
+          "time": "6:20 AM",
+          "activity": "Danta Dhavana & Jihva Nirlekhana — Oral Care",
+          "details": "Brush teeth with herbal powder or paste. Scrape tongue with copper or stainless steel scraper (7-10 strokes). This removes ama (toxins) and stimulates digestive organs.",
+          "duration": "5 min"
+        },
+        {
+          "time": "6:25 AM",
+          "activity": "Gandusha/Kavala — Oil Pulling",
+          "details": "Swish warm sesame oil in mouth for 5-10 minutes. Strengthens gums, improves voice, and reduces dryness. Spit and rinse.",
+          "duration": "10 min"
+        },
+        {
+          "time": "6:35 AM",
+          "activity": "Nasya — Nasal Oil",
+          "details": "Apply 2-3 drops of warm sesame oil or Anu Taila in each nostril. Lubricates nasal passages, calms the mind, improves clarity.",
+          "duration": "5 min"
+        },
+        {
+          "time": "6:40 AM",
+          "activity": "Abhyanga — Warm Oil Massage",
+          "details": "Full body self-massage with warm sesame oil. Use long strokes on limbs, circular on joints. This is the single most important practice for Vata — deeply grounding and nourishing. Leave oil on for 15-20 minutes.",
+          "duration": "20 min"
+        },
+        {
+          "time": "7:00 AM",
+          "activity": "Snana — Warm Bath/Shower",
+          "details": "Bathe in warm (not hot) water. Avoid cold showers entirely. The warmth calms Vata and improves circulation.",
+          "duration": "15 min"
+        },
+        {
+          "time": "7:15 AM",
+          "activity": "Vyayama — Gentle Exercise",
+          "details": "Gentle yoga (focus on grounding poses: Tadasana, Virabhadrasana, Balasana), walking, tai chi, or light stretching. Avoid vigorous or exhausting exercise. Exercise to 50% capacity only.",
+          "duration": "30 min"
+        },
+        {
+          "time": "7:45 AM",
+          "activity": "Pranayama & Dhyana — Breathwork & Meditation",
+          "details": "Practice Nadi Shodhana (alternate nostril breathing) for calming. Follow with 10-15 minutes of silent meditation. This settles the Vata mind.",
+          "duration": "20 min"
+        },
+        {
+          "time": "8:00 AM",
+          "activity": "Pratar Ahara — Breakfast",
+          "details": "Eat a warm, cooked, nourishing breakfast. Ideal: oatmeal with ghee, warm milk with spices, cooked grains, stewed fruits. Avoid cold cereals, smoothies, and raw foods.",
+          "duration": "20 min"
+        },
+        {
+          "time": "12:00 PM",
+          "activity": "Madhyahna Ahara — Lunch (Main Meal)",
+          "details": "Largest meal of the day when Agni (digestive fire) is strongest. Warm, well-cooked, moist foods with ghee. Eat mindfully without screens. Include all six tastes (Shadrasa).",
+          "duration": "30 min"
+        },
+        {
+          "time": "12:30 PM",
+          "activity": "Shatapavali — Post-Lunch Walk",
+          "details": "Walk 100 steps gently after lunch to aid digestion. Lie on left side for 10 minutes if possible.",
+          "duration": "15 min"
+        },
+        {
+          "time": "4:00 PM",
+          "activity": "Sayam Sandhya — Evening Transition",
+          "details": "Light snack if hungry (warm milk with cardamom, dates, soaked almonds). Take a break, do light stretching. This is Vata time — ground yourself.",
+          "duration": "15 min"
+        },
+        {
+          "time": "6:30 PM",
+          "activity": "Sayam Ahara — Dinner",
+          "details": "Light but warm dinner. Soups, kitchari, steamed vegetables with rice. Eat at least 2-3 hours before sleep. Avoid raw salads and cold foods.",
+          "duration": "20 min"
+        },
+        {
+          "time": "8:00 PM",
+          "activity": "Sandhya Charya — Evening Routine",
+          "details": "Wind down with calming activities: gentle reading, soft music, journaling, light conversation. Avoid screens, stimulating content, and intense work.",
+          "duration": "60 min"
+        },
+        {
+          "time": "9:00 PM",
+          "activity": "Pada Abhyanga — Foot Massage",
+          "details": "Massage feet with warm sesame oil before bed. Promotes deep sleep and calms the nervous system. Focus on the soles.",
+          "duration": "10 min"
+        },
+        {
+          "time": "9:30 PM",
+          "activity": "Nidra — Sleep",
+          "details": "Sleep by 9:30-10:00 PM. Vata needs consistent, early sleep. Use a weighted blanket if available. Room should be warm, dark, and quiet.",
+          "duration": "8-9 hours"
+        }
+      ],
+      "keyPrinciples": [
+        "Regularity is medicine for Vata — same times for meals, sleep, and activities",
+        "Warmth in all forms: warm food, warm oil, warm baths",
+        "Avoid cold, dry, raw, and irregular habits",
+        "Sesame oil is Vata's best friend (abhyanga and nasya)",
+        "Gentle, grounding activities over intense, stimulating ones"
+      ]
+    },
+    "pitta": {
+      "dosha": "Pitta",
+      "theme": "Cool, moderate, and nurture — avoid excess intensity",
+      "routine": [
+        {
+          "time": "5:30 AM",
+          "activity": "Brahma Muhurta — Wake Up",
+          "details": "Wake before sunrise when the air is cool. Pitta can wake slightly earlier than Vata. Avoid waking angry or rushed.",
+          "duration": "5 min"
+        },
+        {
+          "time": "5:35 AM",
+          "activity": "Ushapana — Cool/Room-Temp Water",
+          "details": "Drink a glass of room temperature or slightly cool water. Add a squeeze of lime or rose water for cooling effect.",
+          "duration": "5 min"
+        },
+        {
+          "time": "5:40 AM",
+          "activity": "Mala Tyaga — Elimination",
+          "details": "Pitta usually has regular, easy elimination. Allow natural process.",
+          "duration": "10 min"
+        },
+        {
+          "time": "5:50 AM",
+          "activity": "Danta Dhavana & Jihva Nirlekhana — Oral Care",
+          "details": "Brush with bitter or astringent herbal paste (neem-based is ideal for Pitta). Tongue scraping with silver or stainless steel.",
+          "duration": "5 min"
+        },
+        {
+          "time": "5:55 AM",
+          "activity": "Gandusha — Oil Pulling",
+          "details": "Use coconut oil (cooling) for oil pulling. Swish for 5-10 minutes.",
+          "duration": "10 min"
+        },
+        {
+          "time": "6:05 AM",
+          "activity": "Nasya — Nasal Oil",
+          "details": "Apply 2-3 drops of coconut oil or Brahmi Ghrita in each nostril. Cooling and calming for the sharp Pitta mind.",
+          "duration": "5 min"
+        },
+        {
+          "time": "6:10 AM",
+          "activity": "Abhyanga — Cooling Oil Massage",
+          "details": "Self-massage with coconut oil or sunflower oil (cooling oils). Moderate pressure. Focus on head and feet especially. Leave on 10-15 minutes.",
+          "duration": "15 min"
+        },
+        {
+          "time": "6:25 AM",
+          "activity": "Snana — Cool/Lukewarm Shower",
+          "details": "Bathe in lukewarm to slightly cool water. Avoid very hot showers. Cold water on head is beneficial for Pitta.",
+          "duration": "15 min"
+        },
+        {
+          "time": "6:40 AM",
+          "activity": "Vyayama — Moderate Exercise",
+          "details": "Swimming (best for Pitta), cycling, moderate yoga (Moon Salutations, forward bends, twists), hiking in nature. Avoid exercising in heat or competing aggressively. Exercise to 70% capacity.",
+          "duration": "30-45 min"
+        },
+        {
+          "time": "7:15 AM",
+          "activity": "Pranayama & Dhyana — Breathwork & Meditation",
+          "details": "Practice Sheetali or Sheetkari Pranayama (cooling breaths). Follow with 15-20 minutes of meditation. Loving-kindness meditation is excellent for softening Pitta's intensity.",
+          "duration": "20 min"
+        },
+        {
+          "time": "7:45 AM",
+          "activity": "Pratar Ahara — Breakfast",
+          "details": "Moderate, cooling breakfast. Ideal: sweet fruits, oatmeal with cooling spices (cardamom, fennel), toast with ghee, sweet lassi. Avoid spicy, fermented, or acidic foods.",
+          "duration": "20 min"
+        },
+        {
+          "time": "12:00 PM",
+          "activity": "Madhyahna Ahara — Lunch (Main Meal)",
+          "details": "Largest meal of the day. Sweet, bitter, and astringent tastes predominate. Basmati rice, cooling vegetables, salads (Pitta can handle raw foods), dal, coriander chutney.",
+          "duration": "30 min"
+        },
+        {
+          "time": "12:30 PM",
+          "activity": "Shatapavali — Post-Lunch Walk",
+          "details": "Leisurely walk in shade or cool area. Avoid intense afternoon sun. A short rest (not sleep) is acceptable.",
+          "duration": "15 min"
+        },
+        {
+          "time": "3:30 PM",
+          "activity": "Afternoon Break",
+          "details": "Sweet fruit or coconut water. Take a mental break from intense work. Walk in nature if possible.",
+          "duration": "15 min"
+        },
+        {
+          "time": "6:30 PM",
+          "activity": "Sayam Ahara — Dinner",
+          "details": "Moderate, cooling dinner. Avoid heavy, spicy, or fried foods. Kitchari, steamed vegetables, light grain preparations.",
+          "duration": "20 min"
+        },
+        {
+          "time": "8:00 PM",
+          "activity": "Sandhya Charya — Evening Routine",
+          "details": "Leisure time: moonlight walks, time with loved ones, creative hobbies, gratitude journaling. Avoid work emails and competitive activities.",
+          "duration": "60 min"
+        },
+        {
+          "time": "9:00 PM",
+          "activity": "Pada Abhyanga — Foot Massage",
+          "details": "Massage soles with coconut oil or ghee. Apply sandalwood paste or rose water to forehead.",
+          "duration": "10 min"
+        },
+        {
+          "time": "10:00 PM",
+          "activity": "Nidra — Sleep",
+          "details": "Sleep by 10:00 PM before Pitta time (10 PM-2 AM) activates the mind. Cool, dark room. Moon-gazing before sleep is calming. Avoid working late.",
+          "duration": "7-8 hours"
+        }
+      ],
+      "keyPrinciples": [
+        "Cooling in all forms: cool foods, cool oils, cool environments",
+        "Moderation is key — avoid overdoing work, exercise, or competition",
+        "Sweet, bitter, and astringent tastes balance Pitta",
+        "Coconut oil is Pitta's best friend",
+        "Time in nature, especially near water, is deeply balancing"
+      ]
+    },
+    "kapha": {
+      "dosha": "Kapha",
+      "theme": "Stimulate, lighten, and energize — avoid stagnation",
+      "routine": [
+        {
+          "time": "5:00 AM",
+          "activity": "Brahma Muhurta — Wake Up Early",
+          "details": "Wake BEFORE 6 AM — this is critical for Kapha. Sleeping past 6 AM (Kapha time) increases heaviness and lethargy. Jump out of bed rather than lingering.",
+          "duration": "5 min"
+        },
+        {
+          "time": "5:05 AM",
+          "activity": "Ushapana — Warm Honey Water",
+          "details": "Drink warm water with raw honey and a squeeze of lemon. Stimulates metabolism and clears morning congestion. Never boil honey.",
+          "duration": "5 min"
+        },
+        {
+          "time": "5:10 AM",
+          "activity": "Mala Tyaga — Elimination",
+          "details": "Allow natural elimination. Kapha may have slow, heavy bowel movements. Warm water and early waking help.",
+          "duration": "10 min"
+        },
+        {
+          "time": "5:20 AM",
+          "activity": "Danta Dhavana & Jihva Nirlekhana — Oral Care",
+          "details": "Brush with pungent/astringent herbal paste (ginger, cinnamon, or trikatu-based). Tongue scraping with copper (especially important for Kapha to remove thick coating).",
+          "duration": "5 min"
+        },
+        {
+          "time": "5:25 AM",
+          "activity": "Gandusha — Oil Pulling",
+          "details": "Use mustard oil or sesame oil (warming) for oil pulling. Helps reduce Kapha congestion in throat and sinuses.",
+          "duration": "10 min"
+        },
+        {
+          "time": "5:35 AM",
+          "activity": "Nasya — Nasal Drops",
+          "details": "Apply 2-3 drops of warm sesame oil or sharp nasya oil (with camphor/eucalyptus). Clears sinus congestion common in Kapha.",
+          "duration": "5 min"
+        },
+        {
+          "time": "5:40 AM",
+          "activity": "Udvartana or Garshana — Dry Powder/Silk Glove Massage",
+          "details": "Instead of oil abhyanga, Kapha benefits more from dry massage. Use raw silk gloves (garshana) or chickpea flour mixed with triphala (udvartana). Stimulates circulation and reduces cellulite. Upward strokes toward the heart.",
+          "duration": "15 min"
+        },
+        {
+          "time": "5:55 AM",
+          "activity": "Snana — Warm Shower",
+          "details": "Warm (not hot) shower. Use invigorating scents: eucalyptus, rosemary, camphor. Cold shower finish is excellent for Kapha if tolerable.",
+          "duration": "10 min"
+        },
+        {
+          "time": "6:05 AM",
+          "activity": "Vyayama — Vigorous Exercise",
+          "details": "This is the MOST important practice for Kapha. Vigorous exercise daily: running, HIIT, power yoga (Sun Salutations, backbends, inversions), martial arts, dancing, brisk hiking. Exercise to 80-90% capacity. Build a sweat.",
+          "duration": "45-60 min"
+        },
+        {
+          "time": "7:00 AM",
+          "activity": "Pranayama & Dhyana — Breathwork & Meditation",
+          "details": "Practice Kapalabhati (skull-shining breath) and Bhastrika (bellows breath) — stimulating pranayamas. Follow with active meditation or visualization. Avoid overly passive, sleepy meditation.",
+          "duration": "15 min"
+        },
+        {
+          "time": "7:15 AM",
+          "activity": "Pratar Ahara — Light Breakfast (Optional)",
+          "details": "Kapha can skip breakfast or eat very light. If eating: warm spiced tea, light fruits (apple, pear), small portion of warm grain with honey. AVOID heavy, sweet, cold, or dairy-heavy breakfasts.",
+          "duration": "15 min"
+        },
+        {
+          "time": "12:00 PM",
+          "activity": "Madhyahna Ahara — Lunch (Main Meal)",
+          "details": "Largest meal of the day but still moderate portions. Emphasize pungent, bitter, and astringent tastes. Light grains, spiced vegetables, legumes, leafy greens. Minimize dairy, wheat, and sweets.",
+          "duration": "25 min"
+        },
+        {
+          "time": "12:25 PM",
+          "activity": "Shatapavali — Post-Lunch Walk",
+          "details": "Brisk walk after lunch — essential for Kapha. Do NOT nap during the day. Daytime sleep increases Kapha dramatically.",
+          "duration": "15 min"
+        },
+        {
+          "time": "3:30 PM",
+          "activity": "Afternoon Activity",
+          "details": "Stay active and engaged. Avoid afternoon sluggishness by having stimulating tea (ginger, black pepper, cinnamon). Light snack only if truly hungry.",
+          "duration": "15 min"
+        },
+        {
+          "time": "6:00 PM",
+          "activity": "Sayam Ahara — Light, Early Dinner",
+          "details": "Lightest meal of the day. Warm soup, steamed vegetables, light dal. Eat early (before 7 PM). Avoid heavy, sweet, or cold foods at night.",
+          "duration": "20 min"
+        },
+        {
+          "time": "7:30 PM",
+          "activity": "Sandhya Charya — Evening Routine",
+          "details": "Stay active: take a walk, do a hobby, socialize, learn something new. Avoid TV and couch-sitting. Stimulation and variety are medicine for Kapha.",
+          "duration": "60 min"
+        },
+        {
+          "time": "9:00 PM",
+          "activity": "Pada Abhyanga — Foot Massage (Light)",
+          "details": "Light massage of feet with mustard oil (warming). Keep it brief — Kapha doesn't need as much oil as other doshas.",
+          "duration": "5 min"
+        },
+        {
+          "time": "10:00 PM",
+          "activity": "Nidra — Sleep",
+          "details": "Sleep by 10:00 PM but avoid oversleeping. 6-7 hours is sufficient for Kapha. Wake early is more important than sleeping more. Avoid sleeping on the stomach.",
+          "duration": "6-7 hours"
+        }
+      ],
+      "keyPrinciples": [
+        "Early rising (before 6 AM) is the single most important Kapha practice",
+        "Vigorous daily exercise is non-negotiable",
+        "Light, warm, spiced foods — avoid heavy, cold, sweet, and oily",
+        "Dry massage (garshana/udvartana) over oil massage",
+        "No daytime sleeping — stay active and stimulated",
+        "Variety and new experiences prevent Kapha stagnation"
+      ]
+    }
+  }
+}
