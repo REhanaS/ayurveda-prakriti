@@ -137,13 +137,15 @@ export default function Coach({ onBack }) {
             Send an email to explore how Ayurveda can support your wellbeing journey.
           </p>
           <a
-            href="mailto:rehana.s.sheikh@gmail.com?subject=Ayurveda Consultation Enquiry"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeFoAhMbhdkpDVzxqiCmyMgHeEES59bUROABohI0_NCnXVjNw/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-[#c0704a] text-white px-8 py-3 rounded-full text-xs font-sans uppercase tracking-widest hover:bg-[#a85e3d] transition-colors cursor-pointer"
           >
-            Email Rehana
+            Book a Session →
           </a>
           <p className="text-[#5c4d33] text-[10px] font-sans mt-4">
-            rehana.s.sheikh@gmail.com
+            Fill in a short form — Rehana will be in touch within 48 hours
           </p>
         </div>
       </div>
