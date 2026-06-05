@@ -30,7 +30,7 @@ export default function App() {
       {page === 'intro' && (
         <Intro onStart={() => goTo('quiz')} onCoach={() => goTo('coach')} />
       )}
-      {page === 'quiz' && <Quiz onComplete={handleQuizComplete} />}
+      {page === 'quiz' && <Quiz onComplete={handleQuizComplete} onBack={() => setPage('intro')} />}
       {page === 'results' && (
         <Results
           scores={scores}

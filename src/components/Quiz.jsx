@@ -9,7 +9,7 @@ const CATEGORY_LABELS = {
   emotional: 'Emotional Tendencies',
 };
 
-export default function Quiz({ onComplete }) {
+export default function Quiz({ onComplete, onBack }) {
   const questions = questionsData.questions;
   const [current, setCurrent] = useState(0);
   const [answers, setAnswers] = useState({}); // { questionId: { dosha, score } }
@@ -42,6 +42,10 @@ export default function Quiz({ onComplete }) {
   };
 
   const handleBack = () => {
+    if (current === 0) {
+      onBack();
+      return;
+    }
     const prevQ = questions[current - 1];
     setSelected(answers[prevQ.id] || null);
     setCurrent(current - 1);
@@ -108,8 +112,7 @@ export default function Quiz({ onComplete }) {
           <div className="flex justify-between mt-10">
             <button
               onClick={handleBack}
-              disabled={current === 0}
-              className="px-6 py-3 rounded-full text-xs font-sans uppercase tracking-widest text-[#9c8660] border border-[#d4c4a8] hover:border-[#9c8660] transition-colors disabled:opacity-25 disabled:cursor-not-allowed cursor-pointer"
+              className="px-6 py-3 rounded-full text-xs font-sans uppercase tracking-widest text-[#9c8660] border border-[#d4c4a8] hover:border-[#9c8660] transition-colors cursor-pointer"
             >
               ← Back
             </button>
